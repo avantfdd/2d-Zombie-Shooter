@@ -1,0 +1,4 @@
+res://scenes/main.tscn
+res://scenes/player.tscn
+res://scripts/player.gd
+res://scenes/level_root.tscn
