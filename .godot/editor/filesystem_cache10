@@ -1,6 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1791750874
-zombie.tscn::PackedScene::4964725250066564373::1791751942::0::1::::<><><>0<>0<><>::uid://f8p57xfls7k1::::res://assets/images/Enemies.png
+::res://::1792857167
 ::res://assets/::1791493805
 ::res://assets/images/::1791496155
 Collectables.png::CompressedTexture2D::4442092750137367564::1791486573::1791486755::1::::<><><>0<>0<>464202f21166e6fdbec76ee474244d74<>res://.godot/imported/Collectables.png-5ec6e96bdaf6b102176ebcddf9d9d387.ctex::
@@ -16,9 +15,13 @@ background.mp3::AudioStreamMP3::525673459693227669::1791494082::1791494083::1:::
 jump.mp3::AudioStreamMP3::522004147501502569::1791494082::1791494083::1::::<><><>0<>0<>70a236dd88ad5fe39092877bd8a28e75<>res://.godot/imported/jump.mp3-f3bf278264a8ed6d8f2cd6a03fcdbb1a.mp3str::
 lose.mp3::AudioStreamMP3::8010028629988705724::1791494082::1791494083::1::::<><><>0<>0<>f33a20f90aa0508d90ca239101fefbc7<>res://.godot/imported/lose.mp3-3e442ec268ff379d48ab102c0d466d57.mp3str::
 win.mp3::AudioStreamMP3::5199255183704365281::1791494082::1791494083::1::::<><><>0<>0<>5c832c4516f285abbd236cfe82e7aebe<>res://.godot/imported/win.mp3-02dd55b7aaa00ba4d8a671d74df69e38.mp3str::
-::res://scenes/::1791496864
-level_root.tscn::PackedScene::5220810328216395646::1791496649::0::1::::<><><>0<>0<><>::uid://du15l3hnjorkg::::res://assets/images/Tiles.png<>uid://u7m3g6ebgc26::::res://assets/images/backgrounds/postapocalypse1.png
-main.tscn::PackedScene::2274405264119988017::1791496864::0::1::::<><><>0<>0<><>::uid://qy8ygp2bhjr1::::res://scenes/player.tscn<>uid://cgm88o0barjso::::res://scenes/level_root.tscn
+::res://scenes/::1791756107
+level_root.tscn::PackedScene::5220810328216395646::1791756107::0::1::::<><><>0<>0<><>::uid://du15l3hnjorkg::::res://assets/images/Tiles.png<>uid://u7m3g6ebgc26::::res://assets/images/backgrounds/postapocalypse1.png<>uid://qy8ygp2bhjr1::::res://scenes/player.tscn<>uid://ccy7kgichnmy4::::res://scenes/zombie.tscn
+main.tscn::PackedScene::2274405264119988017::1791754319::0::1::::<><><>0<>0<><>::uid://bkyh44bg30knl::::res://scripts/main.gd<>uid://cgm88o0barjso::::res://scenes/level_root.tscn
 player.tscn::PackedScene::1174613423661509608::1791495867::0::1::::<><><>0<>0<><>::uid://dmm6p4f0he5cr::::res://scripts/player.gd<>uid://bbo0vhpysjfgg::::res://assets/images/Player.png<>uid://ho4lj3v2jdrd::::res://assets/sounds/jump.mp3
-::res://scripts/::1791494258
-player.gd::GDScript::8028211253515351101::1791494258::0::1::::<>CharacterBody2D<><>0<>0<><>::
+zombie.tscn::PackedScene::4964725250066564373::1791753369::0::1::::<><><>0<>0<><>::uid://p1oaa6gj7714::::res://scripts/zombie.gd<>uid://f8p57xfls7k1::::res://assets/images/Enemies.png
+::res://scripts/::1791755538
+main.gd::GDScript::3138332518176449909::1791755311::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::8028211253515351101::1791755538::0::1::::<>CharacterBody2D<><>0<>0<><>::
+zombie.gd::GDScript::1107356562249642529::1791755311::0::1::::<>Area2D<><>0<>0<><>::
+::res://zombie-shooter/::1791756442

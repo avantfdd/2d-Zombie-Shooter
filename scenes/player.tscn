@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://qy8ygp2bhjr1"]
+[gd_scene load_steps=22 format=3 uid="uid://qy8ygp2bhjr1"]
 
 [ext_resource type="Script" uid="uid://dmm6p4f0he5cr" path="res://scripts/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://bbo0vhpysjfgg" path="res://assets/images/Player.png" id="2_g2els"]
@@ -135,6 +135,9 @@ animations = [{
 "speed": 15.0
 }]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qhqgy"]
+bg_color = Color(0.8, 0.0627451, 0.0627451, 1)
+
 [node name="Player" type="CharacterBody2D"]
 scale = Vector2(3, 3)
 script = ExtResource("1_g2els")
@@ -144,6 +147,7 @@ position = Vector2(-0.9166667, 0.58333325)
 shape = SubResource("RectangleShape2D_onrkg")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
@@ -154,3 +158,16 @@ autoplay = "Idle"
 
 [node name="JumpSound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_qhqgy")
+
+[node name="GunPoint" type="Marker2D" parent="."]
+position = Vector2(6, 0)
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+offset_left = -92.33333
+offset_top = -49.666668
+offset_right = -23.333328
+offset_bottom = -35.666664
+theme_override_styles/fill = SubResource("StyleBoxFlat_qhqgy")
+max_value = 3.0
+step = 1.0
+show_percentage = false
