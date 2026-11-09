@@ -1,1 +1,5 @@
 res://scenes/level_root.tscn
+res://scripts/zombie.gd
+res://scripts/main.gd
+res://scenes/player.tscn
+res://scripts/player.gd

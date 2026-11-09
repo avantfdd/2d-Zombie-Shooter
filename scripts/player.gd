@@ -38,6 +38,8 @@ func _physics_process(delta: float) -> void:
 		velocity.y = JUMP_VELOCITY      
 		jump_sound.play()
 		
+	if Input.is_action_just_pressed("reset"):
+		reset()
 	#Handle shooting
 	if Input.is_action_just_pressed("shoot"):
 		shoot()
@@ -68,6 +70,8 @@ func die() -> void:
 func set_health_bar() -> void:
 	$HealthBar.max_value = health
 	$HealthBar.value = health
+func reset() -> void:
+	get_tree().reload_current_scene()
 	
 func shoot() -> void:
 	if not can_shoot:

@@ -295,10 +295,6 @@ position = Vector2(555, -60)
 [node name="Zombie7" parent="Enemies" instance=ExtResource("4_ssdv0")]
 position = Vector2(1276, -15)
 
-[node name="Zombie8" parent="Enemies" instance=ExtResource("4_ssdv0")]
-position = Vector2(988.87354, -303.2635)
-scale = Vector2(1.5, 1.5)
-
 [node name="Zombie9" parent="Enemies" instance=ExtResource("4_ssdv0")]
 position = Vector2(1303, -16)
 
